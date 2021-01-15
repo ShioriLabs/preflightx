@@ -1,9 +1,9 @@
-# preflight
-Common TypeScript project scaffolding
+# preflightx
+Common React project scaffolding
 
 ## Description
 
-`preflight` is a project template that makes starting a new project a bit easier. `preflight` includes TypeScript, ESLint with StandardJS, and Nodemon to make sure a project development is fun and easy
+`preflightx` is a project template that makes starting a new project a bit easier. `preflightx` includes TypeScript, ESLint with StandardJS, and React with Next.js to make sure a project development is fun and easy
 
 ## Getting Started
 
@@ -13,7 +13,7 @@ Common TypeScript project scaffolding
 
 2. Get a copy of this repository with `degit`
 
-`degit ShioriLabs/preflight`
+`degit ShioriLabs/preflightx`
 
 3. Install the project with `npm install`
 
