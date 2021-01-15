@@ -1,0 +1,37 @@
+{
+  "name": "preflight",
+  "version": "1.0.0",
+  "description": "Common TypeScript project scaffolding",
+  "main": "dist/app.js",
+  "scripts": {
+    "test": "eslint src/**/*.ts --fix",
+    "build": "tsc",
+    "dev": "ts-node --project tsconfig.json src/app.ts",
+    "start": "node dist/app.js",
+    "watch": "NODE_ENV=development nodemon -e ts --watch ./src --exec \"npm run dev\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shiorilabs/preflight.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shiorilabs/preflight/issues"
+  },
+  "homepage": "https://github.com/shiorilabs/preflight#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.13.0",
+    "@typescript-eslint/parser": "^4.13.0",
+    "eslint": "^7.17.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "nodemon": "^2.0.7",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  }
+}
