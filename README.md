@@ -3,7 +3,7 @@ Common React project scaffolding
 
 ## Description
 
-`preflightx` is a project template that makes starting a new project a bit easier. `preflightx` includes TypeScript, ESLint with StandardJS, and React with Next.js to make sure a project development is fun and easy
+`preflightx` is a project template that makes starting a new project a bit easier. `preflightx` includes TypeScript, ESLint with StandardJS, styled-components, and React with Next.js to make sure a project development is fun and easy
 
 ## Getting Started
 
