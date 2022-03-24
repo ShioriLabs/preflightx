@@ -1,6 +1,6 @@
 {
   "name": "preflightx",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Common React project scaffolding",
   "scripts": {
     "test": "eslint src/**/*.{ts,tsx} --fix",
