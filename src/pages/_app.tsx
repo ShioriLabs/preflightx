@@ -3,7 +3,7 @@ import Head from 'next/head'
 import { ThemeProvider } from 'styled-components'
 import { AppProps } from 'next/dist/shared/lib/router/router'
 
-import 'normalize.css'
+import 'modern-normalize'
 
 export default function App ({ Component, pageProps }: AppProps): React.ReactElement {
   return (
