@@ -20,30 +20,29 @@
   },
   "homepage": "https://github.com/ShioriLabs/preflightx#readme",
   "dependencies": {
-    "babel-plugin-styled-components": "^1.12.0",
+    "babel-plugin-styled-components": "^2.1.1",
     "modern-normalize": "^1.1.0",
-    "next": "^12.1.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "styled-components": "^5.2.3"
+    "next": "^13.4.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^5.3.10"
   },
   "devDependencies": {
-    "@types/node": "^14.14.21",
-    "@types/react": "^17.0.2",
-    "@types/styled-components": "^5.1.9",
-    "@typescript-eslint/eslint-plugin": "^4.13.0",
-    "@typescript-eslint/parser": "^4.13.0",
-    "eslint": "^7.17.0",
-    "eslint-config-standard": "^16.0.2",
-    "eslint-plugin-import": "^2.22.1",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.5",
+    "@types/styled-components": "^5.1.26",
+    "@typescript-eslint/eslint-plugin": "^5.59.2",
+    "@typescript-eslint/parser": "^5.59.2",
+    "eslint": "^8.39.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-react": "^7.29.4",
-    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-standard": "^5.0.0",
     "husky": "^6.0.0",
     "lint-staged": "^10.5.3",
-    "ts-node": "^10.1.0",
-    "typescript": "^4.6.2"
+    "typescript": "^5.0.4"
   },
   "lint-staged": {
     "*.(ts|tsx)": "eslint"
